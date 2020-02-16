@@ -220,9 +220,6 @@ IPADDR=192.168.253.1
 NETMASK=255.255.255.252
 ONBOOT=yes
 EOT
-              #echo "192.168.2.0/24 via 192.168.254.2 dev eth1:0" >> /etc/sysconfig/network-scripts/route-eth1
-              #echo "192.168.1.0/24 via 192.168.253.2 dev eth1:1" >> /etc/sysconfig/network-scripts/route-eth1
-              #echo "192.168.3.0/24 via 192.168.254.2 dev eth1:0" >> /etc/sysconfig/network-scripts/route-eth1
               echo "192.168.2.0/24 via 192.168.254.2 dev bond0:0" >> /etc/sysconfig/network-scripts/route-bond0
               echo "192.168.3.0/24 via 192.168.254.2 dev bond0:0" >> /etc/sysconfig/network-scripts/route-bond0
               echo "192.168.1.0/24 via 192.168.253.2 dev bond0:1" >> /etc/sysconfig/network-scripts/route-bond0
