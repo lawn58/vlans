@@ -1,4 +1,4 @@
-# -*- mode: ruby -*
+# -*- mode: ruby -*-
 # vim: set ft=ruby :
 
 MACHINES = {
